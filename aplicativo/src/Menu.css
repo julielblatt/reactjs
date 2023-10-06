@@ -1,0 +1,47 @@
+/* Menu.css */
+.menu {
+    width: 100%;
+    max-width: 320px; /* Define a largura máxima para o layout responsivo */
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #00FF00; /* Cor verde forte */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .logout-button {
+    background-color: #FF0000; /* Cor vermelha para o botão de logout */
+    color: rgb(255, 255, 255);
+  }
+  
+  /* Estilos adicionais para dispositivos com largura de tela até 768 pixels (dispositivos móveis) */
+  @media (max-width: 768px) {
+    .menu {
+      padding: 10px;
+    }
+  
+    button {
+      font-size: 14px;
+    }
+  
+    button:hover {
+      background-color: #008000;
+    }
+  }
+  
